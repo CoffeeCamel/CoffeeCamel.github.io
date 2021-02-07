@@ -32,7 +32,7 @@ a:link, a:visited, a:hover, a:active {
 
 #headerImg {
 	width: 100%;
-	position: absolute;
+	/*position: absolute;*/
 }
 
 #logo {
