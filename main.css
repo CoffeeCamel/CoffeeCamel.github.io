@@ -105,6 +105,10 @@ a:link, a:visited, a:hover, a:active {
 
 @media screen and (hover: none) {
 	#headerText {
-		max-width: 200px;
+		max-width: 300px;
+	}
+
+	#imageGrid {
+		column-count: 1;
 	}
 }
