@@ -106,8 +106,8 @@ a:link, a:visited, a:hover, a:active {
 	font-size: x-small;
 }
 
-/*@media screen and (hover: none) {{
-	#headerText {{
-		color: white;
-	}}
-}}*/
+@media screen and (hover: none) {
+	#headerText {
+		max-width: 500px;
+	}
+}
