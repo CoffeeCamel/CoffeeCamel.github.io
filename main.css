@@ -104,7 +104,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 @media screen and (hover: none) {
-	#headerImg {
+	#header {
 		height: auto;
 		overflow: visible;
 	}
