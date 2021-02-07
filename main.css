@@ -28,13 +28,13 @@ a:link, a:visited, a:hover, a:active {
 #header {
 	position: relative;
 	width: 100%;
-	/*height: 92%;*/
-	/*overflow: hidden;*/
+	height: 92%;
+	overflow: hidden;
 }
 
 #headerImg {
 	width: 100%;
-	/*position: absolute;*/
+	position: absolute;
 }
 
 #logo {
@@ -104,6 +104,11 @@ a:link, a:visited, a:hover, a:active {
 }
 
 @media screen and (hover: none) {
+	#headerImg {
+		height: auto;
+		overflow: visible;
+	}
+
 	#headerText {
 		max-width: 300px;
 	}
